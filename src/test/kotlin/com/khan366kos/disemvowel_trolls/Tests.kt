@@ -6,7 +6,10 @@ import kotlin.test.assertEquals
 class Tests {
     @Test
     fun success(): Unit {
-        assertEquals(disemvowel("This website is for losers LOL!"), "Ths wbst s fr lsrs LL!")
+        assertEquals(
+            "Ths wbst s fr lsrs LL!",
+            disemvowel("This website is for losers LOL!")
+        )
     }
 }
 
